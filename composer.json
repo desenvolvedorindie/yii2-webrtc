@@ -1,0 +1,22 @@
+{
+    "name": "desenvolvedorindie/yii2-rtcmulti-connection",
+    "description": "WebRTC yii",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alberto Castro",
+            "email": "alberto@ecastro.com.br"
+        }
+    ],
+    "require": {
+        "bower-asset/rtcmulticonnection": "dev-master",
+        "yiisoft/yii2": "2.0.*",
+        "desenvolvedorindie/yii2-socketio-client": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "webrtc\\web\\": "src"
+        }
+    }
+}
